@@ -52,5 +52,9 @@
     "fork": "hardhat node",
     "deploy:tolsta:local": "hardhat run scripts/deploy.ts --network local",
     "deploy:tolsta:bsc:testnet": "hardhat run scripts/deploy.ts --network bsctest"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.5.6"
   }
 }
