@@ -1,0 +1,119 @@
+{
+  "contractName": "CircuitBreaker",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/CircuitBreaker.sol\":\"CircuitBreaker\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/CircuitBreaker.sol\":{\"keccak256\":\"0xc643b177d1c62dd9db2e67fd5344318a41f1c56603cd3ffc81a7b60caaf7aacc\",\"license\":\"NOLICENSE\",\"urls\":[\"bzz-raw://d5acdbdd4722d2a5285eb7e88d1574cd252b760918ad5bc04ecce6f5b73a588a\",\"dweb:/ipfs/QmYu7gUJUhXNG21zRZQpMMpzbDiYYbzZ8kS1Fd44au23Ww\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220093e53f54d7c3ee2e9318b24d677d6544d63ea2f30ecbf8e444b17948cb82ad064736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220093e53f54d7c3ee2e9318b24d677d6544d63ea2f30ecbf8e444b17948cb82ad064736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "64:158:50:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "64:158:50:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: NOLICENSE\n\npragma solidity ^0.8.9;\n\ncontract CircuitBreaker {\n//    struct Bucket {\n//        uint256 max;\n//        uint256 min;\n//    };\n//    mapping (uint -> Bucket) buckets;\n//    uint256\n}",
+  "sourcePath": "D:\\Solidity - Curso FG\\Solidity-Course\\contracts\\CircuitBreaker.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/CircuitBreaker.sol",
+    "exportedSymbols": {
+      "CircuitBreaker": [
+        15092
+      ]
+    },
+    "id": 15093,
+    "license": "NOLICENSE",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 15091,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".9"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:50"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CircuitBreaker",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 15092,
+        "linearizedBaseContracts": [
+          15092
+        ],
+        "name": "CircuitBreaker",
+        "nameLocation": "73:14:50",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 15093,
+        "src": "64:158:50",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:183:50"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/CircuitBreaker.sol",
+    "exportedSymbols": {
+      "CircuitBreaker": [
+        15092
+      ]
+    },
+    "id": 15093,
+    "license": "NOLICENSE",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 15091,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".9"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "39:23:50"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CircuitBreaker",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 15092,
+        "linearizedBaseContracts": [
+          15092
+        ],
+        "name": "CircuitBreaker",
+        "nameLocation": "73:14:50",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 15093,
+        "src": "64:158:50",
+        "usedErrors": []
+      }
+    ],
+    "src": "39:183:50"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.6",
+  "updatedAt": "2022-03-30T15:35:27.835Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
